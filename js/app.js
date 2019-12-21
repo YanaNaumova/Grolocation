@@ -33,7 +33,7 @@ function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
 
-let url='http://courses.dp.ua/api/pb_atm.php';
+let url='https://api.privatbank.ua/p24api/infrastructure?json&atm&address=&city=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BEs';
 fetch(url)
 .then(result=>result.json())
 .then(result=>{
